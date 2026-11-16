@@ -97,7 +97,7 @@ const navigate = useNavigate();
   return (
     <div className="flex  w-full items-center justify-center mt-20 ">
       <div className="w-full max-w-md">
-        <Tabs defaultValue="signup" className="flex w-full flex-col gap-3">
+        <Tabs defaultValue="login" className="flex w-full flex-col gap-3">
           {/* TabsList with light gray background and dark gray text for inactive items */}
           <TabsList className="grid h-11 w-full grid-cols-2 bg-slate-100 p-1 text-slate-600">
             <TabsTrigger
