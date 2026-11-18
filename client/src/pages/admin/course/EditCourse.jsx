@@ -11,7 +11,7 @@ const EditCourse = () => {
           Add detailed information regarding course
         </h1>
         <Link to="lecture">
-          <Button variant="link" className="hover:cursor-pointer hover:text-blue-700">
+          <Button variant="link" className="text-blue-700 hover:cursor-pointer hover:text-blue-800">
             Go to lectures page
           </Button>
         </Link>
